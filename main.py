@@ -15,7 +15,7 @@ from flask import Flask, jsonify
 import logging
 
 # ================= ENVIRONMENT VARIABLES =================
-TOKEN = os.environ.get('BOT_TOKEN', "8648798788:AAHJV3K7ouZD8LDuMxr7qIR1javQlv_IHl4")
+TOKEN = os.environ.get('BOT_TOKEN', "8648798788:AAEsDiFSCOS1wVEDli9UAMXo261n3TN5X-4")
 CHANNEL_USERNAME = os.environ.get('CHANNEL_USERNAME', "@prime_xyron")
 ADMIN_IDS = [int(id) for id in os.environ.get('ADMIN_IDS', "8373846582").split(',')]
 PORT = int(os.environ.get('PORT', 5000))
